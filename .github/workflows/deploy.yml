@@ -41,7 +41,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: "https://https://dennis-das.github.io/"
+      url: "https://curiousdas.github.io"
     runs-on: ubuntu-latest
     needs: build
     steps:
