@@ -1,50 +1,55 @@
 # Personal Website
 
-A clean, minimalist personal website for Abhisek Das.
-
-## Features
-
-- **Clean, Minimalist Design**: Content-first layout with excellent typography
-- **Dark/Light Theme Toggle**: Automatic theme switching with local storage persistence
-- **Responsive Design**: Mobile-first approach
-- **Warm Theme Skin**: Custom warm color palette
+A clean, minimalist personal portfolio powered by [Zola](https://www.getzola.org/) and the [Apollo](https://github.com/not-matthias/apollo) theme.
 
 ## Setup
 
 ```bash
-# Install dependencies
-npm install
+# Clone with submodules
+git clone --recursive <repo-url>
 
-# Start local server
-npm run serve
+# Or if already cloned, init submodules
+git submodule update --init --recursive
+
+# Serve locally
+zola serve
+
+# Build for production
+zola build
 ```
 
-## File Structure
+The site will be available at `http://127.0.0.1:1111`
+
+## Structure
 
 ```
-personal-website/
-├── index.html              # Main HTML page
-├── styles.css              # Main stylesheet
-├── styles-skin-warm.css    # Warm theme skin
-├── resources/
-│   └── photo.png           # Profile photo
-├── package.json            # NPM config
-└── README.md               # This file
+.
+├── config.toml          # Site configuration
+├── content/
+│   ├── _index.md        # Homepage
+│   ├── about.md         # About page
+│   ├── posts/           # Blog posts
+│   └── projects/        # Projects showcase
+├── static/              # Static assets
+└── themes/apollo/       # Apollo theme (submodule)
 ```
 
 ## Customization
 
-Edit `index.html` to update:
-- Personal information and bio
-- Work experience
-- Skills & technologies
-- Social media links
-
-Edit `styles.css` or `styles-skin-warm.css` to customize colors and styling.
+- Edit `config.toml` to update site title, social links, and menu
+- Edit markdown files in `content/` to update pages
+- Add new blog posts in `content/posts/`
+- Add new projects in `content/projects/`
 
 ## Deployment
 
-Push to GitHub and enable GitHub Pages, or deploy to any static hosting service.
+Build the static site and deploy the `public/` folder:
+
+```bash
+zola build
+```
+
+Deploy to GitHub Pages, Netlify, Vercel, or any static hosting service.
 
 ## License
 
