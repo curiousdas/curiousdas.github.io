@@ -4,39 +4,52 @@ title = "About"
 
 # About Me
 
-I'm a senior backend engineer with around six years of experience building and running scalable distributed systems. I enjoy working end to end on problems, from shaping the system design and architecture to shipping code and keeping things healthy in production.
+I’m a senior backend engineer with around six years of experience building and running scalable distributed systems. I like working end to end on problems, from designing systems and writing code to shipping features and keeping things running smoothly in production. Lately, I’ve been tinkering a lot with LLMs and agent-based systems, exploring and experimenting with what they can do.
 
 ## Work Experience
 
 ### Software Engineer @ Affirm Inc (2025 - Present)
 
 - Building microservices responsible for sending communication to 30M customers per day
-- Led the complete development of migration from MySQL database to DynamoDB; led the foundation for modelling data in dynamo for the entire organisation and helped other teams to transition to dynamo
+- Led the complete development of migration from MySQL database to DynamoDB; led the foundation for modelling data in dynamo for the entire organisation and helped other teams to transition to dynamo.
 - Helped in reducing bad queries in the existing monolith system and improved SQL query performances by 40%
 
 ### Software Engineer @ Skyscanner (2023 - 2025)
 
-- Built and maintained RESTful APIs for e-commerce platform
-- Developed responsive frontend applications using React and TypeScript
-- Implemented CI/CD pipelines reducing deployment time by 60%
-- Participated in agile development process and sprint planning
+- Led the integration of train inventory microservice on Skyscanner, successfully overseeing the release of
+  this feature across 6 major countries on various platforms.
+- Helped reduce the search to booking ratio of our partner APIs by a staggering 91% by implementing
+  aggressive caching strategies.
+- Contributed to the Ads Forecasting team tasked with predicting partner inventory, impressions, and
+  clicks when advertising on the Skyscanner platform.
+- Researched and led the migration of 60% of current advertising products to the forecasting platform.
+- Developed the impression ratio forecasting system entirely from inception to delivery, engaging with
+  various software technologies throughout the process as the sole contributor. This effort resulted in
+  38.8% improvement over the existing implementation.
 
-### Frontend Developer @ StartUp Ventures (2018 - 2020)
+### Software Engineer @ Disney+ Hotstar (2021 - 2023)
 
-- Created interactive user interfaces with modern JavaScript frameworks
-- Optimized web applications for performance and SEO
-- Worked closely with UX designers to implement pixel-perfect designs
-- Contributed to component library used across multiple projects
+- Lead a team of 3 members for building the next generation state machine microservice to cater to
+  onboarding/subscription use cases for Hotstar across different geographies.
+- Responsible for design, development and maintenance of the registry microservice which serves as the
+  source of truth for rendering pages on Disney streaming and Disney+ Hotstar.
 
-### Junior Web Developer @ Creative Agency Co. (2017 - 2018)
+### Software Engineer @ Samsung Research (2019 - 2021)
 
-- Developed custom WordPress themes and plugins for clients
-- Implemented responsive designs using HTML5, CSS3, and JavaScript
-- Maintained and updated existing client websites
-- Provided technical support and troubleshooting for web issues
+- Responsible and accountable for the design, development, and maintenance of the Spring Boot
+  microservice which played a crucial role in ensuring compliance with GDPR and other relevant
+  regulations for the Samsung-SmartThings IoT cloud platform.
+- Enforced different regulations on cloud services over 10 + teams from different Samsung subsidiaries.
+- Worked on content management service responsible for providing metadata while onboarding any device
+  into Samsung IoT ecosystem.
+
+### Engineering Intern @ Amazon (2018)
+- Collaborated with the India Demand Generation team to enhance the purchase success rate of e-books in
+  the Indian market.
+- Implemented a streamlined one-click payment method on the e-book payment selection page.
 
 ## Beyond Work
 
-Outside of work, I love traveling and have visited **24 countries** so far. One of my most memorable experiences was traveling to Svalbard, where I visited the northernmost point of the world.
+Outside of work, I love traveling and have visited **24 countries** so far.
 
 When I'm not traveling, I enjoy experimenting in the kitchen and closely following **Formula 1**—usually with plenty of opinions from my couch.

@@ -47,44 +47,12 @@ template = "homepage.html"
     <p class="homepage-hero-subtitle">Curiosity-led. Tinkerer-minded. Forever learning.</p>
 </div>
 
-## Background
+### Background
 
 I'm a senior backend engineer with around six years of experience building and running scalable distributed systems. I enjoy working end to end on problems, from shaping the system design and architecture to shipping code and keeping things healthy in production. I care a lot about building software that's reliable, easy to maintain, and practical in the real world.
 
 Outside of work, I love traveling and have visited 24 countries so far. One of my most memorable experiences was traveling to Svalbard, where I visited the northernmost point of the world. When I'm not traveling, I enjoy experimenting in the kitchen and closely following Formula 1—usually with plenty of opinions from my couch.
 
-## Skills & Technologies
-
-<div class="skills-grid">
-    <div class="skill-category">
-        <h4>Languages</h4>
-        <ul>
-            <li>Java</li>
-            <li>Golang</li>
-            <li>Kotlin</li>
-            <li>Python</li>
-        </ul>
-    </div>
-    <div class="skill-category">
-        <h4>Caching & Databases</h4>
-        <ul>
-            <li>Redis</li>
-            <li>DynamoDB</li>
-            <li>MySQL</li>
-        </ul>
-    </div>
-    <div class="skill-category">
-        <h4>Frameworks</h4>
-        <ul>
-            <li>Spring Boot</li>
-            <li>Dropwizard</li>
-            <li>Gin (Golang)</li>
-            <li>Ktor (Kotlin)</li>
-            <li>Flask (Python)</li>
-        </ul>
-    </div>
-</div>
-
-## Connect
+### Connect
 
 I'm always interested in hearing from other developers, potential collaborators, or anyone who shares my passion for building great software. Feel free to reach out!
