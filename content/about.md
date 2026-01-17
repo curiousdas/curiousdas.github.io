@@ -2,16 +2,12 @@
 title = "About"
 +++
 
-# About Me
-
 I’m a senior backend engineer with around six years of experience building and running scalable distributed systems. I like working end to end on problems, from designing systems and writing code to shipping features and keeping things running smoothly in production. Lately, I’ve been tinkering a lot with LLMs and agent-based systems, exploring and experimenting with what they can do.
-
-## Work Experience
 
 ### Software Engineer @ Affirm Inc (2025 - Present)
 
-- Building microservices responsible for sending communication to 30M customers per day
-- Led the complete development of migration from MySQL database to DynamoDB; led the foundation for modelling data in dynamo for the entire organisation and helped other teams to transition to dynamo.
+- Currently owning services from Python monolith to Kotlin microservice responsible for sending 30M communication (email, SMS, push notifications) per day.
+- Led the complete development of migration from MySQL database in monolith to DynamoDB in the new architecture; led the foundation for modelling data in dynamo for the entire organisation and helped other teams to transition to dynamo.
 - Helped in reducing bad queries in the existing monolith system and improved SQL query performances by 40%
 
 ### Software Engineer @ Skyscanner (2023 - 2025)
@@ -52,4 +48,4 @@ I’m a senior backend engineer with around six years of experience building and
 
 Outside of work, I love traveling and have visited **24 countries** so far.
 
-When I'm not traveling, I enjoy experimenting in the kitchen and closely following **Formula 1**—usually with plenty of opinions from my couch.
+When I'm not traveling, I enjoy experimenting in the kitchen and closely following **Formula 1**, usually with plenty of opinions from my couch.
